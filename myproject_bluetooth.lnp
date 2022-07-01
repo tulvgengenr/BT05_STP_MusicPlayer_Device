@@ -1,0 +1,4 @@
+"main.obj",
+".\STCBSP_V3.4.LIB" 
+TO "myproject_bluetooth" 
+RAMSIZE(256) 

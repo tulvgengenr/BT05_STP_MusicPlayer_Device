@@ -1,0 +1,535 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\学习\大二夏\大作业\myproject_bluetooth\myproject_bluetooth.uvproj
+Project File Date:  09/11/2021
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(1): warning C318: can't open file 'main.H'
+main.c(36): warning C206: 'PlayTone': missing function-prototype
+main.c(36): error C267: 'PlayTone': requires ANSI-style prototype
+compiling song.c...
+Target not created
+compiling main.c...
+main.c(1): warning C318: can't open file 'main.H'
+main.c(36): warning C206: 'PlayTone': missing function-prototype
+main.c(36): error C267: 'PlayTone': requires ANSI-style prototype
+main.c - 1 Error(s), 2 Warning(s).
+compiling main.c...
+main.c(1): warning C318: can't open file 'main.H'
+main.c(36): warning C206: 'PlayTone': missing function-prototype
+main.c(36): error C267: 'PlayTone': requires ANSI-style prototype
+main.c - 1 Error(s), 2 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(1): warning C318: can't open file 'main.H'
+main.c(36): warning C206: 'PlayTone': missing function-prototype
+main.c(36): error C267: 'PlayTone': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c(104): error C100: unprintable character 0xA3 skipped
+main.c(104): error C100: unprintable character 0xAC skipped
+Target not created
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c(104): error C100: unprintable character 0xA3 skipped
+main.c(104): error C100: unprintable character 0xAC skipped
+main.c - 2 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c(104): error C100: unprintable character 0xA3 skipped
+main.c(104): error C100: unprintable character 0xAC skipped
+Target not created
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c(104): error C100: unprintable character 0xA3 skipped
+main.c(104): error C100: unprintable character 0xAC skipped
+main.c - 2 Error(s), 1 Warning(s).
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c(104): error C100: unprintable character 0xA3 skipped
+main.c(104): error C100: unprintable character 0xAC skipped
+main.c - 2 Error(s), 1 Warning(s).
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c(104): error C100: unprintable character 0xA3 skipped
+main.c(104): error C100: unprintable character 0xAC skipped
+main.c - 2 Error(s), 1 Warning(s).
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c(104): error C100: unprintable character 0xA3 skipped
+main.c(104): error C100: unprintable character 0xAC skipped
+main.c - 2 Error(s), 1 Warning(s).
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+compiling song.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SONG
+    MODULE:  song.obj (SONG)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?SONG
+Program Size: data=55.6 xdata=1172 code=6917
+Target not created
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+compiling song.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SONG
+    MODULE:  song.obj (SONG)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?SONG
+Program Size: data=55.6 xdata=1172 code=6917
+Target not created
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+compiling song.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SONG
+    MODULE:  song.obj (SONG)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?SONG
+Program Size: data=55.6 xdata=196 code=5940
+Target not created
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+compiling song.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SONG
+    MODULE:  song.obj (SONG)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?SONG
+Program Size: data=55.6 xdata=1172 code=6917
+Target not created
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+compiling song.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SONG
+    MODULE:  song.obj (SONG)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?SONG
+Program Size: data=55.6 xdata=1172 code=6917
+Target not created
+Build target 'Target 1'
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SONG
+    MODULE:  song.obj (SONG)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?SONG
+Program Size: data=55.6 xdata=1172 code=6917
+Target not created
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(96): warning C209: '_SetUart2Rxd': too few actual parameters
+compiling song.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  SONG
+    MODULE:  song.obj (SONG)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?SONG
+Program Size: data=55.6 xdata=196 code=5940
+Target not created
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+compiling song.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?SONG
+Program Size: data=55.6 xdata=196 code=5846
+"myproject_bluetooth" - 0 Error(s), 7 Warning(s).
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+Program Size: data=55.6 xdata=196 code=5752
+"myproject_bluetooth" - 0 Error(s), 6 Warning(s).
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+Program Size: data=55.6 xdata=196 code=5752
+"myproject_bluetooth" - 0 Error(s), 6 Warning(s).
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+Program Size: data=55.6 xdata=196 code=5752
+"myproject_bluetooth" - 0 Error(s), 6 Warning(s).
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+Program Size: data=55.6 xdata=196 code=5752
+creating hex file from ".\output\myproject_bluetooth"...
+".\output\myproject_bluetooth" - 0 Error(s), 6 Warning(s).
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+Program Size: data=55.6 xdata=1172 code=6729
+creating hex file from ".\output\myproject_bluetooth"...
+".\output\myproject_bluetooth" - 0 Error(s), 6 Warning(s).
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+Program Size: data=55.6 xdata=1172 code=6729
+creating hex file from ".\output\myproject_bluetooth"...
+".\output\myproject_bluetooth" - 0 Error(s), 6 Warning(s).
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+Program Size: data=55.6 xdata=1172 code=6729
+creating hex file from ".\output\myproject_bluetooth"...
+".\output\myproject_bluetooth" - 0 Error(s), 6 Warning(s).
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+Program Size: data=55.6 xdata=1172 code=6729
+creating hex file from ".\output\myproject_bluetooth"...
+".\output\myproject_bluetooth" - 0 Error(s), 6 Warning(s).
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+Program Size: data=55.6 xdata=1172 code=6729
+creating hex file from ".\output\myproject_bluetooth"...
+".\output\myproject_bluetooth" - 0 Error(s), 6 Warning(s).
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+Program Size: data=55.6 xdata=1172 code=6729
+creating hex file from ".\output\myproject_bluetooth"...
+".\output\myproject_bluetooth" - 0 Error(s), 6 Warning(s).
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+Program Size: data=55.6 xdata=1172 code=6729
+creating hex file from ".\output\myproject_bluetooth"...
+".\output\myproject_bluetooth" - 0 Error(s), 6 Warning(s).
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+Program Size: data=55.6 xdata=1172 code=6729
+creating hex file from ".\output\myproject_bluetooth"...
+".\output\myproject_bluetooth" - 0 Error(s), 5 Warning(s).
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+Program Size: data=55.6 xdata=1172 code=6729
+creating hex file from ".\output\myproject_bluetooth"...
+".\output\myproject_bluetooth" - 0 Error(s), 6 Warning(s).
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+main.c - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling main.c...
+main.c(95): warning C209: '_SetUart2Rxd': too few actual parameters
+compiling song.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETULTRASONIC?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETSYSPERFORMANCE?SYS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETPLAYERMODE?MUSIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART2PRINT?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETUART2TXSTATUS?UART2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?SONG
+Program Size: data=55.6 xdata=1172 code=6823
+creating hex file from ".\output\myproject_bluetooth"...
+".\output\myproject_bluetooth" - 0 Error(s), 7 Warning(s).

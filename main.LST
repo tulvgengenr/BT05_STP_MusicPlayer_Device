@@ -1,0 +1,136 @@
+C51 COMPILER V9.51   MAIN                                                                  09/11/2021 20:02:00 PAGE 1   
+
+
+C51 COMPILER V9.51, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\output\main.obj
+COMPILER INVOKED BY: D:\keil\C51\BIN\C51.EXE main.c BROWSE DEBUG OBJECTEXTEND TABS(2) OBJECT(.\output\main.obj)
+
+line level    source
+
+   1          #include "main.H"
+   2          /*myproject
+   3           *作者：HNU根根儿
+   4           *QQ：871005218
+   5          */
+   6            //全局变量
+   7          unsigned char Music_PM=90;//节奏
+   8          unsigned char Music_tone=0xFC;//音调
+   9          
+  10          unsigned char song1[2] = {0,0};//上位机传来的音阶
+  11          
+  12          int xiege = 0;//是否是写歌模式
+  13          unsigned char num_cunchu = 0;//已经存储的字节数量
+  14          xdata unsigned char cunchu[1001] = {0x21,0x04,
+  15            0x23,0x08,
+  16            0x23,0x04,
+  17            0x23,0x20};//将非易失存储器的内容从硬盘读到内存
+  18          
+  19          int bofang = 0;//是否是播放模式
+  20          int index = 0;//当前播放的歌曲的序号
+  21          
+  22            //延迟函数
+  23          void Delay10ms(){
+  24   1        unsigned char i, j;
+  25   1        i = 108;
+  26   1        j = 145;
+  27   1        do{
+  28   2          while(--j);
+  29   2          
+  30   2        }while(--i);
+  31   1      }
+  32          
+  33            //串口2收到数据的回调函数
+  34          void myUart2Rxd_callback(){
+  35   1        PlayTone(Music_tone, Music_PM , song1[0], song1[1]);
+  36   1        if(xiege == 1){
+  37   2          if(num_cunchu <= 0xfe){
+  38   3          M24C02_Write(num_cunchu, song1[0]);
+  39   3          num_cunchu++;
+  40   3          Delay10ms();
+  41   3          M24C02_Write(num_cunchu, song1[1]);
+  42   3          num_cunchu++;
+  43   3          Delay10ms();
+  44   3          Seg7Print(num_cunchu,0,0,0,0,0,song1[0],song1[1]);
+  45   3          }
+  46   2        }
+  47   1      }
+  48          
+  49          
+  50            /*按键1进入写歌模式再按一次退出写歌模式
+  51             *按键2进入音乐播放模式再按一次退出音乐播放模式
+  52            */
+  53          void myKey_callback(){
+  54   1        if(GetKeyAct(enumKey1) == enumKeyPress){
+  55   2          if(xiege == 0) xiege = 1;
+C51 COMPILER V9.51   MAIN                                                                  09/11/2021 20:02:00 PAGE 2   
+
+  56   2          else xiege = 0;
+  57   2          if(bofang == 1) bofang = 0;
+  58   2        }
+  59   1        if(GetKeyAct(enumKey2) == enumKeyPress){
+  60   2          if(bofang == 0) bofang = 1;
+  61   2          else bofang = 0;
+  62   2          if(xiege == 1) xiege = 0;
+  63   2          
+  64   2          if(bofang == 1){
+  65   3            unsigned char i = 0;
+  66   3            while(i != num_cunchu)
+  67   3            {
+  68   4              cunchu[i] = M24C02_Read(i);
+  69   4              i++;
+  70   4              Delay10ms();
+  71   4            }
+  72   3            Seg7Print(cunchu[0],cunchu[1],cunchu[2],cunchu[3],cunchu[4],cunchu[5],cunchu[6],cunchu[7]);
+  73   3            Delay10ms();
+  74   3            SetPlayerMode(enumModePlay);
+  75   3          }
+  76   2          else{
+  77   3            SetPlayerMode(enumModeStop);
+  78   3          }
+  79   2        }
+  80   1      }
+  81          void main(){
+  82   1        //串口2，EXT，9600波特率驱动
+  83   1        Uart2Init(9600,Uart2UsedforEXT);
+  84   1        //音乐播放器驱动
+  85   1        MusicPlayerInit();
+  86   1        BeepInit();
+  87   1        //数码管显示驱动
+  88   1        DisplayerInit();
+  89   1        SetDisplayerArea(0,7);
+  90   1        //按键驱动
+  91   1        Key_Init();
+  92   1        //设置串口2接收回调函数
+  93   1        SetEventCallBack(enumEventUart2Rxd, myUart2Rxd_callback); 
+  94   1        //设置串口2接收条件：数据包存放位置、大小、包头匹配字符、匹配字符个数
+  95   1        SetUart2Rxd(&song1, 2, 0);         
+*** WARNING C209 IN LINE 95 OF main.c: '_SetUart2Rxd': too few actual parameters
+  96   1        //按下K1停止播放
+  97   1        SetEventCallBack(enumEventKey, myKey_callback);
+  98   1        //初始化变量
+  99   1        Seg7Print(6,6,6,6,6,6,6,6);
+ 100   1        LedPrint(0);      
+ 101   1        //播放音乐
+ 102   1        SetMusic(Music_PM, Music_tone, cunchu,sizeof(cunchu), enumMscDrvLed);
+ 103   1        //MySTC_OS
+ 104   1        MySTC_Init();
+ 105   1        while(1){
+ 106   2        MySTC_OS();
+ 107   2        }
+ 108   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    378    ----
+   CONSTANT SIZE    =     30    ----
+   XDATA SIZE       =   1001    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     11       1
+C51 COMPILER V9.51   MAIN                                                                  09/11/2021 20:02:00 PAGE 3   
+
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)

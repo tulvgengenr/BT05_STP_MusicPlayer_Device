@@ -1,0 +1,5 @@
+".\output\main.obj",
+".\STCBSP_V3.4.LIB",
+".\output\song.obj" 
+TO ".\output\myproject_bluetooth" 
+PRINT(".\myproject_bluetooth.m51") RAMSIZE(256) 
